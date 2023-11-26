@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio_Zlay_pehenka</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="assets/Peha.jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <nav>
+            <section class="profile">
+                <img src="assets/Peha.jpg" alt="Ебаный рот" class="profile__image">
+                <h1 class="profile__h">Zlay_pehenka</h1>
+                <a href="mailto:ismatullaramazanov20@gmail.com" class="profile__ref">ismatullaramazanov20@gmail.com</a>
+            </section>
+        </nav>
+        <div role="line" class="line"></div>
+        <h1 class="text-for-works">my work of art</h1>
+        <section class="all-works" >
+            <section class="work" onclick="popup">
+                <img class="work__image" src="assets/RPK2.png" alt="one of my masterpiece">
+            </section>
+            <section class="work" onclick="popup">
+                <img class="work__image" src="assets/pool.png" alt="one of my masterpiece">
+            </section>
+            <section class="work" onclick="popup">
+                <img class="work__image" src="assets/Rol2.png" alt="one of my masterpiece">
+            </section>
+            <section class="work" onclick="popup">
+                <img class="work__image" src="assets/RPK.png" alt="one of my masterpiece">
+            </section>
+            <section class="work" onclick="popup">
+                <img class="work__image" src="assets/Snow.png" alt="one of my masterpiece">
+            </section>
+            <section class="work" onclick="popup">
+                <img class="work__image" src="assets/SteamPank_PC.png" alt="one of my masterpiece">
+            </section>
+            <section class="work" onclick="popup">
+                <img class="work__image" src="assets/Street.png" alt="one of my masterpiece">
+            </section>
+            <section class="work" onclick="popup">
+                <img class="work__image" src="assets/TrainR.png" alt="one of my masterpiece">
+            </section>
+            <section class="work" onclick="popup">
+                <img class="work__image" src="assets/TrainRN.png" alt="one of my masterpiece">
+            </section>
+            <section class="work" onclick="popup">
+                <img class="work__image" src="assets/TrainS.png" alt="one of my masterpiece">
+            </section>
+            <section class="work" onclick="popup">
+                <img class="work__image" src="assets/TrainSN.png" alt="one of my masterpiece">
+            </section>
+            <section class="work" onclick="popup">
+                <img class="work__image" src="assets/untitled.png" alt="one of my masterpiece">
+            </section>
+        </section>
+    </main>
+    <div class="bg">
+        <div class="bg__img"></div>
+    </div>
+</body>
+<script>
+    const popup = function () {
+        document.getElementsByClassName('bg').style = 'background-color: grey; height:100px; width:100px; ';
+        document.getElementsByClassName('work__image').style = '';
+    }
+</script>
+</html>

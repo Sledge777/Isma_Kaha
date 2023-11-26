@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin:0;
+}
+body{
+    background-color: brown;
+}
+main {
+    height: auto;
+}
+header {
+    height: 100px;
+    background-color: orange;
+    border-radius: 0px 0px 20px 20px;
+}
+.profile {
+    height: 240px;
+    width: 80%;
+    margin: 20px auto 10px;
+}
+.profile__image {
+    height: 230px;
+    float: left;
+    margin-right: 20px;
+    border: 2px solid green; 
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 5px black;
+}
+.profile__ref {
+    text-decoration: none;
+    color: wheat;
+    font-size: 30px;
+}
+.profile__h {
+    font-size: 60px;
+}
+.line {
+    height: 5px;
+    width: 100%;
+    background-color: grey;
+}
+.work {
+    cursor: pointer;
+}
+.work__image {
+    border: 5px solid black;
+    height: 400px;
+}
+.work {
+    
+}
+
+.text-for-works {
+    text-align: center;
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+.all-works {
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    gap: 15px;
+}
+.bg {
+    z-index: 20;
+}
+.bg__img {
+    z-index: 21;
+}
