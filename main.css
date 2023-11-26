@@ -35,7 +35,7 @@ header {
     font-size: 60px;
 }
 .line {
-    height: 5px;
+    box-shadow: 1px 1px 5px 3px;
     width: 100%;
     background-color: grey;
 }
